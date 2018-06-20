@@ -2,9 +2,76 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <meta name="viewport" content="width=device-width,user-scalable=no"
+    <title>Primera Evaluacion</title>
   </head>
   <body>
-
+    <p><h1>Curriculum Vitae</h1></p>
+    <p><h2>Kleber Steven Diaz Coello</h2>
+      <h3>Fecha de Nacimiento: 3/08/1993</h3>
+      <h3>Lugar : Guayaquil </h3>
+    </p>
+    <nav>
+      <a href="index.html">Inicio</a>|
+      <a href="educacion.html">Educacion</a>|
+      <a href="experiencia.html">Experiencia</a>|
+    </nav>
+    <section>
+    <p><h2>Educacion</h2><p>
+      <table border="1", cellpadding="10", cellspacing="0">
+        <tr>
+          <th>Año</th>
+          <th>Institucion</th>
+          <th>Lugar</th>
+          <th>¿Culminó?</th>
+        </tr>
+        <tr>
+          <td>2011</td>
+          <td>IPAC</td>
+          <td>Samborondón</td>
+          <td>SI</td>
+        </tr>
+        <tr>
+          <td>2018</td>
+          <td>Espol</td>
+          <td>Guayaquil</td>
+          <td>SI</td>
+        </tr>
+        <tr>
+          <td>2013</td>
+          <td>Cisco</td>
+          <td>Guayaquil</td>
+          <td>SI</td>
+        </tr>
+        <tr>
+          <td>2018</td>
+          <td>NextU</td>
+          <td>Guayaquil</td>
+          <td>NO</td>
+        </tr>
+      </table>
+      <form autocomplete="on" name="Agregar">
+        <fieldset>
+          <legend>Agregar Estudios</legend>
+          <p><label for="Año">Año:</label>
+            <select name="OS">
+               <option value="1">2016</option>
+               <option value="2">2017</option>
+               <option value="3">2018</option>
+               <option value=4>2019</option>
+               <option value="5">2020</option>
+               <option value="6">2021</option>
+            </select></p>
+          <p><label for="Institucion">Institucion</label>
+            <input type="text" id="Institucion"required></p>
+          <p><label for="Lugar">Lugar</label>
+            <textarea name="lugar" id="Lugar"></textarea></p></br>
+            <p><input type="submit" id="enviar" value="Enviar"></p>
+        </fieldset>
+      </form>
+    </section>
+    <footer>
+      Correo : kleberdiazc@gmail.com | Telefono : 0984195741 | Redes Sociales : kleberdiazc
+    </footer>
   </body>
 </html>
